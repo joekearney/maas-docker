@@ -1,7 +1,7 @@
 NET = ""
 
-DOCKER_EMAIL = artbio.ibps@gmail.com
-DOCKER_USERNAME = artbio
+DOCKER_EMAIL = wataru@manjiya.net
+DOCKER_USERNAME = manji-w
 
 ENV = \
   -e SOME_KEY=SOME_VALUE

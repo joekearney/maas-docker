@@ -1,10 +1,10 @@
 include env_make
-NS = artbio
-VERSION ?= latest
+NS = manji
+VERSION ?= test
 
 REPO = maas
 NAME = maas
-INSTANCE = default
+INSTANCE = $(VERSION)
 
 .PHONY: build push shell run start stop rm release
 build:

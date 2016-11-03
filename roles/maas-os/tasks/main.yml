@@ -14,7 +14,7 @@
     - puppet
     - rpcbind
     - chef
-    - resolvconf
+    - sudo
     - rpcbind
     - rsyslog
     - software-properties-common
@@ -37,7 +37,6 @@
     - chef-client
     - puppet
     - rpcbind
-    - resolvconf
     - rsyslog
     - rpcbind
 
@@ -48,6 +47,8 @@
     - maas
     - maas-dhcp
     - maas-dns
+    - maas-rack-controller
+    - maas-region-controller
   ignore_errors: yes
   tags:
     - install_packages
